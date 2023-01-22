@@ -1,0 +1,10 @@
+- name: branch-deploy
+  id: branch-deploy
+  uses: github/branch-deploy@vX.X.X
+  with:
+    trigger: ".deploy"
+    reaction: "eyes"
+    environment: "production"
+    noop_trigger: "noop"
+    stable_branch: "main"
+    prefix_only: "true"
